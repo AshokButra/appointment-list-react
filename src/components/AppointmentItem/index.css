@@ -1,0 +1,33 @@
+.list-item {
+  border: 1px solid #b5b7c4;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 250px;
+  border-radius: 6px;
+  list-style-type: none;
+  margin: 10px;
+  flex-wrap: wrap;
+  height: 80px;
+}
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+}
+.star-image {
+  height: 20px;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 16px;
+  margin-top: -5px;
+}
+.star-button {
+  background-color: transparent;
+  border-width: 0px;
+}
